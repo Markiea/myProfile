@@ -1,0 +1,30 @@
+}
+
+.name{ font-family:'Charmonman', cursive, Arial;
+color:blue;
+line-height: 1.4em;
+text-decoration:none;
+}
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url("https://lh3.googleusercontent.com/pKKzJdHQ12Vots5FxXx2-6dIAJI459_03NNeI1PpvfI5D6VwXZqzB_osLUf_Twp2dnTHolfwb8r26SSjIenLhJvU1VQQAN1StWgjQoIAiXBfmy4Ho8eRNNFJj4QRQAkpeybWlQkQfQ=w2400");
+
+  /* Set a specific height */
+  height: 50%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
